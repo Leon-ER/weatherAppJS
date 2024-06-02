@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section>
+      <div class="leftGroup">
+        <input type="text" id="cityName" placeholder="City name"/>
+      </div>
+      <div class="content">
+        <div class="top">
+          <h1 id="location-display"></h1>
+          <img id="icon-display" />
+        </div>
+        <p id="temp-display"></p>
+        <div class="middle">
+          <div class="grid">
+            <p id="wind-speed-display"></p>
+            <p id="wind-direction"></p>
+            <p id="feels-like-display"></p>
+            <p id="humidity"></p>
+            <p id="pressure"></p>
+            <p id="visibility"></p>
+          </div>
+        </div>
+        <button id="toggle-button">Toggle °C/°F</button>
+      </div>
+    </section>
+    <footer>
+      <a href="https://github.com/Leon-ER">Made by Leon</a>
+    </footer>
+  </body>
+  <script src="main.js"></script>
+</html>

@@ -1,0 +1,122 @@
+
+body {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(2, 7, 42);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    height: 90vh;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.leftGroup {
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#toggle-button {
+    background: #e89403;
+    background-image: linear-gradient(to bottom, #0372e8, rgb(21, 135, 223));
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color: transparent;
+}
+
+#toggle-button:hover {
+    background: #b59055;
+    background-image: linear-gradient(to bottom, #0372e875, rgba(21, 136, 223, 0.425));
+    text-decoration: none;
+}
+
+input {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 30px;
+    width: 250px;
+}
+.content {
+    font-weight: bold;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 75vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 20px;
+}
+.top {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column; 
+    gap: 2vh; 
+}
+.middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    column-gap: 20px;
+}
+#temp-display{
+    font-size: 40px;
+    text-decoration:underline;
+}
+.grid p {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#EAECEF; 
+    border-radius: 12px;
+    height: 55px;
+    width: 150px;
+    padding: 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
