@@ -1,2 +1,0 @@
-# weatherAppJS
-WeatherAPP following TOP 
